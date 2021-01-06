@@ -196,3 +196,7 @@ h4{
 .icon img{
 height: 40px;
 }
+footer p{
+    text-align: center;
+    font-size: 13px;
+}
