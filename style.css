@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+}
+ h1 , h2{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    color: #363958;
+}
+.menu{
+    float:right;
+}
+.menu-item ul{
+    list-style:none;
+    margin-right: 70px;
+   
+}
+.menu-item ul li{
+    float: left;
+   padding: 2px 25px;
+}
+.menu-item ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #363958;
+
+}
+.menu-item ul li a:hover{
+   color: #FF8367 ;
+}
+
+
+
+.top{
+    margin-top: 20px;
+}
+.top h1{
+    font-size: 70px;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    color: #363958;
+    
+
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(223, 39, 7),lightsalmon);
+    padding: 18px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.button:hover{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,rgb(223, 39, 7));
+    padding: 18px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+section{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    padding-left: 100px;
+}
+.text{
+    margin-top: 50px;
+}
+.text-highlight{
+    color: #FF8367;
+}
+
+.half-width{
+    width: 40%;
+    margin-left: 3%;
+    padding: 2%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+
+.latest-work{
+    background-color: #fafafa;
+    padding: 100px 0;
+    height: 500px;
+}
+.latest-work h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.work-area{
+    width:90% ;
+    margin: auto;
+}
+
+.work-type{
+    width: 28%;
+    margin-left: 2%;
+    padding: 1%;
+    background-color: #fff;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgb(225, 224, 224);
+}
+.work-type img{
+    width: 92%;
+    padding: 2%;
+}
+.work-type h2{
+    margin-top: 20px;
+    padding: 5px ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inquery{
+    width: 70%;
+    margin: auto;
+    padding: 50px 10px;
+}
+.banner{
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 7px;
+   height:200px;
+    width: 100%;
+   
+    
+}
+.inquery-half{
+    float: left;
+    width: 50%;
+   margin: auto;
+   
+     
+}
+.inquery-half h1{
+    color: white;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 70px;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.inquery-half .button{
+    float: right;
+    margin-top: 70px;
+    margin-right: 140px;
+}
+.contact{
+    text-align: center;
+    margin-top: 70px;
+}
+.contact h3{
+    font-size: 26px;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(101, 101, 101);
+    font-weight: 300;
+}
+h4{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-weight: 700;
+    color: #4E45CD;
+    padding:  8px;
+}
+.icon-area{
+    width: 25%;
+    margin: auto;
+}
+.icon{
+    float: left;
+    padding: 10px ;
+    margin: 0;
+    
+}
+.icon img{
+height: 40px;
+}
